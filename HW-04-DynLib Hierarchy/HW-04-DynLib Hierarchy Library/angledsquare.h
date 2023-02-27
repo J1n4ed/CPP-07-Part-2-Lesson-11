@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Ромб
 	*/
-	FIGURELIBRARY_API class AngledSquare : public AngledTwoSideSquare
+	class AngledSquare : public AngledTwoSideSquare
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

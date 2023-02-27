@@ -54,8 +54,8 @@ int main(int argc, char** argv)
 
 	// pointers
 
-	jinx::Triangle* ptr_Triangle;
-	jinx::Quadrangle* ptr_Quadrangle;
+	// jinx::Triangle* ptr_Triangle;
+	// jinx::Quadrangle* ptr_Quadrangle;
 	jinx::Figure* ptr_Figure;
 
 	// TRY ----------------------------------------------------------------

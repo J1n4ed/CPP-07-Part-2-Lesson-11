@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Равносторонний треугольник
 	*/
-	__declspec(dllexport) class EqualizedTriangle : public EqualSidedTriangle
+	class EqualizedTriangle : public EqualSidedTriangle
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
@@ -22,9 +22,9 @@ namespace jinx
 		/*
 		Конструктор по умолчанию удалён
 		*/
-		__declspec(dllexport) EqualizedTriangle() = delete;
+		EqualizedTriangle() = delete;
 
-		__declspec(dllexport) EqualizedTriangle(std::string, int, int, int, int, int, int);
+		EqualizedTriangle(std::string, int, int, int, int, int, int);
 
 		// PROTECTED AREA ----------------------------------------- //
 	protected:

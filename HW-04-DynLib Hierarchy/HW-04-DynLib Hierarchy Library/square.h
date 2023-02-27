@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	 вадрат
 	*/
-	FIGURELIBRARY_API class Square : public TwoSideSquare
+	class Square : public TwoSideSquare
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

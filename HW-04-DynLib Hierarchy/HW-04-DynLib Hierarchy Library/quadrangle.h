@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Любой четырёхугольник
 	*/
-	FIGURELIBRARY_API class Quadrangle : public Figure
+	class Quadrangle : public Figure
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Прямоугольный треугольник
 	*/
-	FIGURELIBRARY_API class QuadTriangle : public Triangle
+	class QuadTriangle : public Triangle
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

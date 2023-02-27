@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Прямоугольник
 	*/
-	__declspec(dllexport) class TwoSideSquare : public Quadrangle
+	class TwoSideSquare : public Quadrangle
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
@@ -22,9 +22,9 @@ namespace jinx
 		/*
 		Конструктор по умолчанию удалён
 		*/
-		__declspec(dllexport) TwoSideSquare() = delete;
+		TwoSideSquare() = delete;
 
-		__declspec(dllexport) TwoSideSquare(std::string, int, int, int, int, int, int, int, int);
+		TwoSideSquare(std::string, int, int, int, int, int, int, int, int);
 
 		// PROTECTED AREA ----------------------------------------- //
 	protected:

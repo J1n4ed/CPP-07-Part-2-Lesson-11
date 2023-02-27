@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Равнобедренный треугольник
 	*/
-	FIGURELIBRARY_API class EqualSidedTriangle : public Triangle
+	class EqualSidedTriangle : public Triangle
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

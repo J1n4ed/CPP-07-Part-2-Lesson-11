@@ -2,16 +2,10 @@
 
 #include <iostream>
 
-#ifdef HW04DYNLIBHIERARCHYLIBRARY_EXPORTS
-#define FIGURELIBRARY_API __declspec(dllexport)
-#else
-#define FIGURELIBRARY_API __declspec(dllimport)
-#endif 
-
 namespace jinx
 {
 
-	FIGURELIBRARY_API class CreateFigureException : public std::exception
+	class CreateFigureException : public std::exception
 	{
 	public:
 		FIGURELIBRARY_API const char* what() const override

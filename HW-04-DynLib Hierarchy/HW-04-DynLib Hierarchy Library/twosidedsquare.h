@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Прямоугольник
 	*/
-	FIGURELIBRARY_API class TwoSideSquare : public Quadrangle
+	class TwoSideSquare : public Quadrangle
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

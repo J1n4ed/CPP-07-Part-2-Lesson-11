@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Любой треуголник
 	*/
-	FIGURELIBRARY_API class Triangle : public Figure
+	class Triangle : public Figure
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

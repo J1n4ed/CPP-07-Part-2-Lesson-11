@@ -14,18 +14,12 @@
 
 #include <string>
 
-#ifdef HW04DYNLIBHIERARCHYLIBRARY_EXPORTS
-#define FIGURELIBRARY_API __declspec(dllexport)
-#else
-#define FIGURELIBRARY_API __declspec(dllimport)
-#endif
-
 namespace jinx
 {
 	/*
 	Базовый класс фигуры
 	*/
-	FIGURELIBRARY_API class Figure // ---------------------------------------------------------------------------------------------------------------- //
+	class Figure // ---------------------------------------------------------------------------------------------------------------- //
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:

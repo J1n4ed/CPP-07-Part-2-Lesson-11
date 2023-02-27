@@ -10,23 +10,23 @@ namespace jinx
 	/*
 	Любой треуголник
 	*/
-	__declspec(dllexport) class Triangle : public Figure
+	class Triangle : public Figure
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
 
 		// PUBLIC Методы ------------------------------------------ //
 
-		__declspec(dllexport) void print_figure() override;
+		void print_figure() override;
 
 		// КОНСТРУКТОРЫ ------------------------------------------- //
 
 		/*
 		Конструктор по умолчанию удалён
 		*/
-		__declspec(dllexport) Triangle() = delete;
+		Triangle() = delete;
 
-		__declspec(dllexport) Triangle(std::string, int, int, int, int, int, int);
+		Triangle(std::string, int, int, int, int, int, int);
 
 		// PROTECTED AREA ----------------------------------------- //
 	protected:

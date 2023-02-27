@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Прямоугольный треугольник
 	*/
-	__declspec(dllexport) class QuadTriangle : public Triangle
+	class QuadTriangle : public Triangle
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
@@ -22,9 +22,9 @@ namespace jinx
 		/*
 		Конструктор по умолчанию удалён
 		*/
-		__declspec(dllexport) QuadTriangle() = delete;
+		QuadTriangle() = delete;
 
-		__declspec(dllexport) QuadTriangle(std::string, int, int, int, int, int, int);
+		QuadTriangle(std::string, int, int, int, int, int, int);
 
 		// PROTECTED AREA ----------------------------------------- //
 	protected:

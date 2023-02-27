@@ -14,7 +14,7 @@ namespace jinx
 	/*
 	Базовый класс фигуры
 	*/
-	__declspec(dllexport) class Figure // ---------------------------------------------------------------------------------------------------------------- //
+	class Figure // ---------------------------------------------------------------------------------------------------------------- //
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
@@ -24,12 +24,12 @@ namespace jinx
 		/*
 		vprint
 		*/
-		__declspec(dllexport) virtual void print_figure();
+		virtual void print_figure();
 
 		/*
 		Вывод имени фигуры
 		*/
-		__declspec(dllexport) std::string get_figure_name();
+		std::string get_figure_name();
 
 		// КОНСТРУКТОРЫ ------------------------------------------- //
 
@@ -37,14 +37,14 @@ namespace jinx
 		Конструктор по умолчанию
 		Удалён
 		*/
-		__declspec(dllexport) Figure() = delete;
+		Figure() = delete;
 
 		/*
 		Конструктор с параметрами
 		На вход int количество сторон
 		и string название фигуры
 		*/
-		__declspec(dllexport) Figure(std::string);
+		Figure(std::string);
 
 		// PROTECTED AREA ----------------------------------------- //
 	protected:

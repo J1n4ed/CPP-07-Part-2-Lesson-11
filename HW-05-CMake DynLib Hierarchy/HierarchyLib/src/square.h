@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	 вадрат
 	*/
-	__declspec(dllexport) class Square : public TwoSideSquare
+	class Square : public TwoSideSquare
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
@@ -22,9 +22,9 @@ namespace jinx
 		/*
 		†онструктор по умолчанию удал™н
 		*/
-		__declspec(dllexport) Square() = delete;
+		Square() = delete;
 
-		__declspec(dllexport) Square(std::string, int, int, int, int, int, int, int, int);
+		Square(std::string, int, int, int, int, int, int, int, int);
 
 		// PROTECTED AREA ----------------------------------------- //
 	protected:

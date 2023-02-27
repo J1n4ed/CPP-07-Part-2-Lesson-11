@@ -10,23 +10,23 @@ namespace jinx
 	/*
 	Любой четырёхугольник
 	*/
-	__declspec(dllexport) class Quadrangle : public Figure
+	class Quadrangle : public Figure
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
 
 		// PUBLIC ћетоды ------------------------------------------ //	
 
-		__declspec(dllexport) void print_figure() override;
+		void print_figure() override;
 
 		// КОНСТРУКТОРЫ ------------------------------------------- //
 
 		/*
 		Конструктор по умолчанию удалён
 		*/
-		__declspec(dllexport) Quadrangle() = delete;
+		Quadrangle() = delete;
 
-		__declspec(dllexport) Quadrangle(std::string, int, int, int, int, int, int, int, int);
+		Quadrangle(std::string, int, int, int, int, int, int, int, int);
 
 		// PROTECTED AREA ----------------------------------------- //
 	protected:

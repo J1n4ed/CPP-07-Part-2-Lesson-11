@@ -10,7 +10,7 @@ namespace jinx
 	/*
 	Параллепепед
 	*/
-	FIGURELIBRARY_API class AngledTwoSideSquare : public Quadrangle
+	class AngledTwoSideSquare : public Quadrangle
 	{
 		// PUBLIC AREA -------------------------------------------- //
 	public:
