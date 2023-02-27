@@ -1,0 +1,36 @@
+// quadtriangle.h
+
+#pragma once
+
+#include "triangle.h"
+#include <string>
+
+namespace jinx
+{
+	/*
+	Прямоугольный треугольник
+	*/
+	FIGURELIBRARY_API class QuadTriangle : public Triangle
+	{
+		// PUBLIC AREA -------------------------------------------- //
+	public:
+
+		// PUBLIC Методы ------------------------------------------ //	
+
+		// КОНСТРУКТОРЫ ------------------------------------------- //
+
+		/*
+		Конструктор по умолчанию удалён
+		*/
+		FIGURELIBRARY_API QuadTriangle() = delete;
+
+		FIGURELIBRARY_API QuadTriangle(std::string, int, int, int, int, int, int);
+
+		// PROTECTED AREA ----------------------------------------- //
+	protected:
+
+		// PRIVATE AREA ------------------------------------------- //
+	private:
+
+	}; // END OF class QuadTriangle // ---------------------------------------------------------------------------------------------------------------- //
+} // END OF jinx

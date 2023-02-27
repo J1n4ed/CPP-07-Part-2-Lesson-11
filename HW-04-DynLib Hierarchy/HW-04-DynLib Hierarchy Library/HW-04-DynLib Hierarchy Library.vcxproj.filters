@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Figure class headers">
+      <UniqueIdentifier>{67bf0d6d-517e-4748-9c0a-b0cd3a356035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exception header">
+      <UniqueIdentifier>{29f3a270-03d2-4e44-a8e8-215ee70de81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Figure class source">
+      <UniqueIdentifier>{766e6e9f-2b60-40fb-ae95-9d84266dadf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cumulative">
+      <UniqueIdentifier>{1ff85330-e2a7-44e1-ae01-8059a492e5d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="figexception.h">
+      <Filter>Header Files\Exception header</Filter>
+    </ClInclude>
+    <ClInclude Include="figure.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="quadtriangle.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="equalsidedtriangle.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="equalizedtriangle.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="quadrangle.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="twosidedsquare.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="angledtwosidesquare.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="angledsquare.h">
+      <Filter>Header Files\Figure class headers</Filter>
+    </ClInclude>
+    <ClInclude Include="figure_hierarchy.h">
+      <Filter>Header Files\Cumulative</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="figure.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="quadtriangle.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="equalsidedtriangle.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="equaliziedtriangle.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="quadrangle.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="twosidedsquare.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="square.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="angledtwosidesquare.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+    <ClCompile Include="angledsquare.cpp">
+      <Filter>Source Files\Figure class source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
